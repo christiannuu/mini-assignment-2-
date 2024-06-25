@@ -3,11 +3,65 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Sandwhich Workshop</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
    
 </head>
 <body>
-    
+    <h1>Sandwhich Maker</h1> 
+    <form>
+        <label for="sandwhich name">Sandwhich Name:</label>
+        <input type="text" id="sandwhich" name="sandwhichname" required>
+
+        <div>
+            <p>Choose a bread:</p>
+            <label for="white">white</label>
+            <input type="radio" id="White" name="Bread" value="White">
+            <br>
+            <label for="Wheat">wheat</label>
+            <input type="radio" id="Wheat" name="Bread" value="Wheat">
+            <br>
+            <label for="Sourdough">sourdough</label>
+            <input type="radio" id="Sourdough" name="Bread" value="Sourdough">
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="protein">Choose Protein</label>
+            <select id="protein">
+                <option value="Turkey">Turkey</option>
+                <option value="Ham">Ham</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Salomi">Salomi</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Choose your toppings:</p>
+            <label for="Lettuce">Lettuce</label>
+            <input type="checkbox" id="lettuce" name="lettuce" value="lettuce">
+            <br>
+            <label for="tomatoes">Tomatoes</label>
+            <input type="checkbox" id="tomatoes" name="tomatoes" value="tomatoes">
+            <br>
+            <label for="Cheese">Cheese</label>
+            <input type="checkbox" id="Cheese" name="Cheese" value="Cheese">
+            <br>
+            <label for="Jalapenos">Jalapenos</label>
+            <input type="checkbox" id="Jalapenos" name="Jalapenos" value="Jalapenos">
+            <br>
+            <label for="Pickles">Cabbage</label>
+            <input type="checkbox" id="Pickles" name="Pickles" value="Pickles">
+            <br>
+            <label for="Bacon">Cabbage</label>
+            <input type="checkbox" id="Bacon" name="Bacon" value="Bacon">
+            <br>
+            <label for="Mayo">Mayo</label>
+            <input type="Checkbox" id="Mayo" name="Mayo" value="Mayo">
+            <br>
+        </div>
+
+    </form>
 </body>
 </html>
